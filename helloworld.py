@@ -1,7 +1,9 @@
 import click
 
 @click.command()
-@click.option('-c', '--case', type=click.Choice(['upper', 'lower']))
+@click.option('-c', '--case',
+              type=click.Choice(['upper', 'lower']),
+              prompt='Please enter case')
 @click.argument('person', default='you')
 def hello(case, person):
     response = "Hello World! Also, hey {} ☺️".format(person)
