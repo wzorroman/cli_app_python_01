@@ -14,7 +14,7 @@ Building CLI Apps with Python
     (venv) $ hello
     output: Hello World!
     ´´´
-
+    - $ hello --help
 
 # Referencias
  - https://dev.to/wangonya/using-setuptools-to-package-your-python-app-18p4
